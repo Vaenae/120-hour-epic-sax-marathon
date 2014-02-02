@@ -455,7 +455,7 @@ Write the function `my-*` that takes any number of parameters.
   product $x \cdot y \cdots$.
 
 You are free to use `*`, but not `apply`.
-  
+
 ~~~clojure
 (my-*)           ;=> 1
 (my-* 4 3)       ;=> 12
@@ -501,7 +501,7 @@ are sequences.
 ~~~clojure
 (my-map inc [1 2 3 4])                  ;=> (2 3 4 5)
 (my-map + [1 1 1] [1 1 1] [1 1 1])      ;=> (3 3 3)
-(my-map vector [1 2 3] [1 2 3] [1 2 3]) ;=> ((1 1 1) (2 2 2) (3 3 3))
+(my-map vector [1 2 3] [1 2 3] [1 2 3]) ;=> ([1 1 1] [2 2 2] [3 3 3])
 ~~~
 
 </exercise>
